@@ -1,37 +1,52 @@
-#Payment Microservices Backend
+# Payment Microservices Backend
 
-This project explores the design of a backend system structured using microservices.
-It models a simplified digital payment workflow by dividing responsibilities across independent services and coordinating them through an API gateway.
+A backend-focused project exploring microservices architecture using Java and Spring Boot.
+The system models a simplified digital payment workflow by dividing responsibilities across independent services.
 
-The goal of the project was to gain practical understanding of how backend services can be modularized, deployed, and managed in a distributed setup using **Spring Boot**
+---
 
-##Architecture
+## 🧩 Architecture
 
-The application consists of the following services:
+* **API Gateway** — routes requests
+* **User Service** — manages users
+* **Wallet Service** — handles balances
+* **Transaction Service** — processes payments
+* **Reward Service** — reward logic
+* **Notification Service** — notifications
 
-API Gateway — routes incoming requests to appropriate services
+---
 
-User Service — handles user account data
+## 🛠 Technologies Used
 
-Wallet Service — manages balance and wallet operations
+* Java
+* Spring Boot
+* Maven
+* Docker / Docker Compose
+* REST APIs
 
-Transaction Service — processes payment transactions
+---
 
-Reward Service — maintains reward logic
+## 📚 Learning Outcomes
 
-Notification Service — manages system notifications
+* Structuring backend applications as microservices
+* Understanding service boundaries
+* API gateway routing
+* Multi-module Maven usage
+* Containerized deployment
 
-Services are containerized and run together using Docker Compose.
+---
 
-## Technologies Used
+## ▶️ Running the Project
 
-Java
+```bash
+docker-compose up --build
+```
 
-Spring Boot
+---
 
-Maven
+## 🚀 Future Improvements
 
-Docker / Docker Compose
-
-REST APIs
-
+* Authentication & authorization
+* Monitoring/logging
+* Database expansion
+* AWS deployment
