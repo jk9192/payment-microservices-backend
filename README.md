@@ -5,7 +5,7 @@ The system models a simplified digital payment workflow by dividing responsibili
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 
 * **API Gateway** — routes requests
 * **User Service** — manages users
@@ -16,7 +16,7 @@ The system models a simplified digital payment workflow by dividing responsibili
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * Java
 * Spring Boot
@@ -26,7 +26,7 @@ The system models a simplified digital payment workflow by dividing responsibili
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 * Structuring backend applications as microservices
 * Understanding service boundaries
@@ -36,7 +36,7 @@ The system models a simplified digital payment workflow by dividing responsibili
 
 ---
 
-## ▶️ Running the Project
+##  Running the Project
 
 ```bash
 docker-compose up --build
@@ -44,7 +44,7 @@ docker-compose up --build
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Authentication & authorization
 * Monitoring/logging
